@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:orientation="horizontal"
+	>
+
+	<ImageButton 
+		android:background="@drawable/icon_prev_selector"			
+		android:id="@+id/widget_btn_prev" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" /> 
+	<ImageButton  
+		android:background="@drawable/icon_play_selector"
+		android:id="@+id/widget_btn_play" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"/>
+	<ImageButton  
+		android:background="@drawable/icon_next_selector"
+		android:id="@+id/widget_btn_next" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" />
+
+</LinearLayout>
